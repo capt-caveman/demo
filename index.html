@@ -1,0 +1,13 @@
+<script>
+rows = 3;
+let newArray=[]; 
+for(let j=0; j<rows.length; j++){
+    let newObj = new ListModel();
+    for(let i = 0; i<result.length; i++){
+     newObj.email = result[i].email,
+     newObj.value = result[i].value  
+    }
+    newArray.push(newObj);// here i see newObj contains values
+    console.log(newArray);// here i see an empty object pushed into the array.
+}
+</script>
